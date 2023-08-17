@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <!-- adres bilgileri -->
+    <h1>Adresimiz:</h1>
+    <div>
+        <p> Cahit Sıtkı Tarancı Sokak, Orhan Veli Caddesi, Cemal Süreyya Apt.</p>
+        <p> 89/56 Taksim/ANTALYA</p>
+        <!-- mail ve telefon bilgileri -->
+        <h1>İletişim:</h1>
+        <p><a href="mailto:av.ozlembelorenoglu@gmail.com"><strong>Bize Mail
+                    Atın:av.ozlembelorenoglu@gmail.com</strong></a>
+        </p>
+        <p><a href="tel:09055555555"><strong>Bize Telefonla Ulaşın: 09055555555</strong></a></p>
+    </div>
+    <!-- İletişim formu -->
+    <h1>İletişim Formu:</h1>
+    <div class="container foo">
+        <form>
+            <label for="ad">ADINIZ</label>
+            <input type="text" id="ad" name="Ad" placeholder="Adınızı giriniz..">
+
+            <label for="soyad">SOYADINIZ</label>
+            <input type="text" id="soyad" name="soyad" placeholder="Soyadınızı giriniz..">
+
+            <label for="ulke">ÜLKE</label>
+            <select id="ulke" name="ulke">
+                <option value="Turkiye">TÜRKİYE</option>
+                <option value="diger">DİĞER</option>
+            </select>
+
+            <label for="mesaj">MESAJINIZ</label>
+            <textarea id="mesaj" name="mesaj" placeholder="Mesajınızı yazınız.." style="height:150px"></textarea>
+            <input type="submit" value="Gönder">
+        </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+        <h1>Neredeyiz:</h1>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10764354.359217325!2d55.86893530826067!3d-17.86229298816913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1692213653695!5m2!1str!2str"
+            width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+</body>
+
+</html>

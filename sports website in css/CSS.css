@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("img/backgroundtheme.avif");
+    background-color: #cceeff;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(3, 51, 47);
+    font-style: oblique;
+}
+
+/* sayfanın en alt ve üstüne gitmeye ilişkin yazıların rengi */
+.text-altust {
+    color: #003333;
+}
+
+/* metinlerin ortalanmasına ilişkin */
+.text-center {
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 30px;
+    border-bottom: 5px solid rgb(6, 133, 125);
+    color: #006666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* image center */
+.imgcenter {
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+
+/* tabloların ve resimlerin ortalanmasına ilişkin */
+.center {
+    height: 400px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #dbe4ed;
+}
+
+/* resimlerin ortalanması ve içeriğindeki yazılara ilişkin */
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 3px;
+}
+
+/* tablolardaki spor başlıklarına ilişkin */
+#sports {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: #006666;
+    font-size: 20px;
+}
+
+/* tabloların ortalanması */
+.table-center {
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    width: 100%;
+
+}
+
+/* butonların stili */
+.tablink {
+    background-color: #2dc4ba;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+/* butonların rengini değiştirme */
+.tablink:hover {
+    background-color: #ee8e45;
+}
+
+/* tablo içeriği yazısı */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #eeb78d;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: rgb(252, 250, 249);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* iletişim formu classı */
+.container {
+    border-radius: 5px;
+    background-color: #f6c996;
+    padding: 20px;
+}
+
+.foo {
+    width: 40%;
+    height: 50vh;
+}
+
+/* etkinlikler sayfasının görselleri üzerine */
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: #003333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: solid 15px;
+    font-style: oblique;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    margin-top: 150px;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+li {
+    background-color: #72d6cc;
+    color: #ae5009;
+    font-size: 22px;
+}

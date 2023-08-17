@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+</head>
+<link rel="stylesheet" href="CSS.css">
+
+<body>
+    <!-- başlık-->
+    <article>
+        <h1 class="text-center">DOĞA SPORLARI</h1>
+    </article>
+    <!-- menü tablosu/ sporlar, etkinlikler, hakkımızda, iletişim -->
+    <article>
+        <div class="tabcontent">
+            <h1>Hakkımızda</h1>
+        </div>
+
+        <div class="tabcontent">
+            <h1>Sporlar</h1>
+        </div>
+
+        <div class="tabcontent">
+            <h1>Etkinlikler</h1>
+        </div>
+
+        <div class="tabcontent">
+            <h1>İletişim</h1>
+        </div>
+
+        <button class="tablink" onclick="openCity('hakkimizda')" id="defaultOpen"><a href="aboutus.html"
+                target="_blank">Hakkımızda</a></button>
+        <button class="tablink" onclick="openCity('sporlar')"><a href="sports.html" target="_blank">Sporlar</a></button>
+        <button class="tablink" onclick="openCity('etkinlik')"><a href="activities.html"
+                target="_blank">Etkinliklerimiz</a></button>
+        <button class="tablink" onclick="openCity('iletisim')"><a href="contact.html"
+                target="_blank">İletişim</a></button>
+
+    </article>
+    <br>
+    <br>
+    <!-- sporlara ilişkin görseller-->
+    <article class="row center text-center">
+        <div class="column">
+            <img src="img/alpinism.jpg" title="alpinism" style="width:80%">
+        </div>
+        <div class="column">
+            <img src="img/rockclimbing.jpg" title="rock climbing" style="width:80%">
+        </div>
+        <div class="column">
+            <img src="img/canyoning.jpg" title="canyoning" style="width:80%">
+        </div>
+    </article>
+    <!-- tablolar -->
+    <article>
+        <table id="sports" class="table-center">
+            <tr>
+                <th>ALPİNİZM</th>
+                <th>KAYA TIRMANIŞI</th>
+                <th>KANYON SPORU</th>
+            </tr>
+        </table>
+    </article>
+    <article>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <p class="text-center"><strong><em>Eğer rengarenk gökkuşağını görebilmek istiyorsan, evvela yağmurda
+                    ıslanmalısın!</em></strong></p>
+        <hr>
+    </article>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+
+</html>
