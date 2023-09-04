@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.googlediv1 {
+    position: relative;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+}
+
+.container {
+    margin-top: 40 px;
+    margin: 30px;
+}
+
+.searchbar {
+    width: 300px;
+    float: none;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+    
+}
+
+.card1 {
+    padding-top: 8px;
+    width: 33%;
+    float: left;
+    background-color: #7ee5da;
+    text-align: center;
+}
+
+.card2 {
+    padding-top: 3px;
+    width: 33%;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color:#70ccc2;
+    text-align: center;
+}
+.card3 {
+    width: 34%;  
+    float: left;
+    background-color: #62b3aa;
+    text-align: center;
+}
+
+.bg-grey {
+    background-color: rgba(229, 229, 229, 0.958);
+}
+
+.cpy{
+    margin-top: 15px;
+    text-align: center;
+}
